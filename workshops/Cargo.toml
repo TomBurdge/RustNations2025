@@ -1,0 +1,16 @@
+[package]
+name = "RustNations2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members = [
+    "ex01_gentle_intro", # A Gentle Introduction to FFI
+    "ex02_auto_header",  # Automatically Generate Header Files
+]
+
+[workspace.dependencies]
+cc = "1"
+bindgen = "0"

@@ -1,0 +1,14 @@
+# Use a Rust base image with Cargo installed
+FROM rust:1.82.0 AS builder
+
+# Set the working directory
+WORKDIR /usr/src/myapp
+
+# Copy the files from the current directory to the working directory
+COPY . .
+
+# Build the project
+RUN cargo build
+
+# Run the project
+CMD ["cargo", "run", "-p", "ex01_gentle_intro"]

@@ -1,0 +1,17 @@
+# Use a Rust base image with Cargo installed
+FROM rust:1.82.0 AS builder
+
+# Set the working directory
+WORKDIR /usr/src/myapp
+
+# Install libclang-dev and llvm-dev
+RUN apt-get update && apt-get install -y libclang-dev llvm-dev
+
+# Copy the files from the current directory to the working directory
+COPY . .
+
+# Build the project
+RUN cargo build
+
+# Run the project
+CMD ["cargo", "run", "-p", "ex02_auto_header"]
