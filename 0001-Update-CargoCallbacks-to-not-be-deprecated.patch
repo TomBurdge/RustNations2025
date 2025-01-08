@@ -1,0 +1,39 @@
+From 07b30507b534183fbcde41c738555789c3298dc3 Mon Sep 17 00:00:00 2001
+From: Herbert Wolverson <herberticus@gmail.com>
+Date: Wed, 8 Jan 2025 11:16:03 -0600
+Subject: [PATCH] Update CargoCallbacks to not be deprecated
+
+---
+ manual/src/01-ffi-intro/extern-c-gets-old-fast.md | 2 +-
+ workshops/ex02_auto_header/build.rs               | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/manual/src/01-ffi-intro/extern-c-gets-old-fast.md b/manual/src/01-ffi-intro/extern-c-gets-old-fast.md
+index d2e0eef..c09f904 100644
+--- a/manual/src/01-ffi-intro/extern-c-gets-old-fast.md
++++ b/manual/src/01-ffi-intro/extern-c-gets-old-fast.md
+@@ -39,7 +39,7 @@ fn main() {
+     // Read the header
+     let bindings = bindgen::Builder::default()
+         .header("src/hello.h")
+-        .parse_callbacks(Box::new(bindgen::CargoCallbacks))
++        .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
+         .generate()
+         .expect("Unable to generate bindings");
+ 
+diff --git a/workshops/ex02_auto_header/build.rs b/workshops/ex02_auto_header/build.rs
+index 8bc4940..a764a7a 100644
+--- a/workshops/ex02_auto_header/build.rs
++++ b/workshops/ex02_auto_header/build.rs
+@@ -5,7 +5,7 @@ fn main() {
+     // Read the header
+     let bindings = bindgen::Builder::default()
+         .header("src/hello.h")
+-        .parse_callbacks(Box::new(bindgen::CargoCallbacks))
++        .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
+         .generate()
+         .expect("Unable to generate bindings");
+ 
+-- 
+2.39.5 (Apple Git-154)
+

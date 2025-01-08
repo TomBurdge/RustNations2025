@@ -15,4 +15,9 @@
     - [Hello Rust](./01-ffi-intro/hello-rust.md)
     - [Build the C Library](./01-ffi-intro/build-the-c-library.md)
     - [Extern C Gets Old, Fast](./01-ffi-intro/extern-c-gets-old-fast.md)
-  
+  - [How about some Rust from C?](./02-ffi-intro/intro.md)
+    - [Create A Portable Rust Function](./02-ffi-intro/rust_fn.md)
+    - [Let's Write some C](./02-ffi-intro/c01.md)
+    - [Auto-generating a C Header](./02-ffi-intro/c02.md)
+- [That Was Easy! Let's Go Home](./end_ffi_intro.md)
+- [Working with C in Rust](./03-c_in_rust/intro.md)

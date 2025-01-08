@@ -1,3 +1,7 @@
 /manual/book/
 /target
 /workshops/target
+/workshops/ex03_rust_from_c/c/rust_from_c
+/workshops/ex03_rust_from_c/c/libex03*
+/workshops/ex04_rust_headers/bindings.h
+

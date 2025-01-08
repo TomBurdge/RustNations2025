@@ -1,3 +1,4 @@
+// Import the auto-generated header
 include!(concat!(env!("OUT_DIR"), "/hello.rs"));
 
 /// Safety: C is inherently unsafe!

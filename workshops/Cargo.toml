@@ -8,7 +8,7 @@ edition = "2021"
 [workspace]
 members = [
     "ex01_gentle_intro", # A Gentle Introduction to FFI
-    "ex02_auto_header",  # Automatically Generate Header Files
+    "ex02_auto_header", "ex03_rust_from_c", "ex04_rust_headers",  # Automatically Generate Header Files
 ]
 
 [workspace.dependencies]
