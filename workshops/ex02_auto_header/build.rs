@@ -5,7 +5,7 @@ fn main() {
     // Read the header
     let bindings = bindgen::Builder::default()
         .header("src/hello.h")
-        .parse_callbacks(Box::new(bindgen::CargoCallbacks))
+        .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
         .generate()
         .expect("Unable to generate bindings");
 
