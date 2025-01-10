@@ -23,4 +23,8 @@
 - [Working with C in Rust](./03-c_in_rust/intro.md)
   - [Our Porting Environment](./03-c_in_rust/setup.md)
   - [Porting Our First Function](./03-c_in_rust/double_01.md)
-  
+  - [C Types](./03-c_in_rust/c_types.md)
+    - [Matching C Types with FFI Types](./03-c_in_rust/c_types_ffi.md)
+    - [Using stdint.h Types](./03-c_in_rust/c_types_stdint.md)
+    
+
