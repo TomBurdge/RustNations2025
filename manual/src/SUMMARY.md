@@ -21,3 +21,6 @@
     - [Auto-generating a C Header](./02-ffi-intro/c02.md)
 - [That Was Easy! Let's Go Home](./end_ffi_intro.md)
 - [Working with C in Rust](./03-c_in_rust/intro.md)
+  - [Our Porting Environment](./03-c_in_rust/setup.md)
+  - [Porting Our First Function](./03-c_in_rust/double_01.md)
+  
