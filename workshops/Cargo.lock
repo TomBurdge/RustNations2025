@@ -217,6 +217,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "ex09_cstruct1"
+version = "0.1.0"
+dependencies = [
+ "bindgen",
+ "cc",
+]
+
+[[package]]
+name = "ex10_cstruct2"
+version = "0.1.0"
+dependencies = [
+ "bindgen",
+ "cc",
+]
+
+[[package]]
+name = "ex11_cstruct3"
+version = "0.1.0"
+dependencies = [
+ "bindgen",
+ "cc",
+]
+
+[[package]]
 name = "fastrand"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

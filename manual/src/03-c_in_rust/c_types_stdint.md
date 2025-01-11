@@ -401,4 +401,4 @@ In your `build.rs`:
         .expect("Unable to generate bindings");
 ```
 
-> Bindgen has an amazing number of options. If you want to, you can make a list of functions in a file and call `allowlist_file`.
+> Bindgen has an amazing number of options. If you want to, you can make a list of functions in a file and call `allowlist_file`. The downside is that now you have to list what you want to import. For a big library, that may be painful.

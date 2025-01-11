@@ -26,5 +26,9 @@
   - [C Types](./03-c_in_rust/c_types.md)
     - [Matching C Types with FFI Types](./03-c_in_rust/c_types_ffi.md)
     - [Using stdint.h Types](./03-c_in_rust/c_types_stdint.md)
-    
+  - [C Structures](./03-c_in_rust/c_structs.md)
+    - [Simple Struct Usage](./03-c_in_rust/c_structs2.md)
+    - [Simple Struct Pointers](./03-c_in_rust/c_structs_3.md)
+    - [Pointers and Ownership](./03-c_in_rust/c_structs_4.md)
+
 
