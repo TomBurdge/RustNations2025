@@ -30,5 +30,17 @@
     - [Simple Struct Usage](./03-c_in_rust/c_structs2.md)
     - [Simple Struct Pointers](./03-c_in_rust/c_structs_3.md)
     - [Pointers and Ownership](./03-c_in_rust/c_structs_4.md)
+      - [Good Old Free](./03-c_in_rust/c_structs_free.md)
+      - [Make a Box](./03-c_in_rust/c_structs_box.md)
+  - [C Strings](./04-c_strings/intro.md)
+    - [Sending Strings to C Functions](./04-c_strings/string_params.md)
+    - [Ownership](./04-c_strings/c_string_ownership.md)
+  - [Callbacks and Functions](./04-c_callbacks/intro.md)
+  - [And Now... Some Pain](./05-c_pain/intro.md)
+    - [Accidentally Including The World](./05-c_pain/accidental_include.md)
+    - [Macros](./05-c_pain/macros.md)
+    - [Into the Void](./05-c_pain/void.md)
+    - [TODO-Unions](./05-c_pain/unions.md)
+
 
 
