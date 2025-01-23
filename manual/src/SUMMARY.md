@@ -18,6 +18,7 @@
   - [How about some Rust from C?](./02-ffi-intro/intro.md)
     - [Create A Portable Rust Function](./02-ffi-intro/rust_fn.md)
     - [Let's Write some C](./02-ffi-intro/c01.md)
+    - [Static Linkage](./02-ffi-intro/c01a.md)
     - [Auto-generating a C Header](./02-ffi-intro/c02.md)
 - [That Was Easy! Let's Go Home](./end_ffi_intro.md)
 - [Working with C in Rust](./03-c_in_rust/intro.md)
@@ -40,7 +41,18 @@
     - [Accidentally Including The World](./05-c_pain/accidental_include.md)
     - [Macros](./05-c_pain/macros.md)
     - [Into the Void](./05-c_pain/void.md)
-    - [TODO-Unions](./05-c_pain/unions.md)
+    - [Unions](./05-c_pain/unions.md)
+- [Working with Rust in C](./06-rust_in_c/intro.md)
+  - [Slices](./06-rust_in_c/slice1.md)
+  - [Slices with Structs](./06-rust_in_c/slice2.md)
+  - [Concurrency!](./06-rust_in_c/concurrency.md)
+    - [Yes, You Can Do That in C!](./06-rust_in_c/concurrency_in_c.md)
+  - [Async!](./06-rust_in_c/async.md)
+    - [Let's Try It](./06-rust_in_c/async2.md)
+- [C++](./07-cpp/intro.md)
+  - [Interop Would be Nice](./07-cpp/interop_imagine.md)
+  - [CXX.RS](./07-cpp/cxx_rs.md)
+  - [CXX.RS The Other Way Around](./07-cpp/cxx_rs2.md)
+- [Wrap Up](./wrap.md)
 
-
-
+    

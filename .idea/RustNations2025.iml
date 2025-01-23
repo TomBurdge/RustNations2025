@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/workshops/ex13_cstring1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/workshops/ex14_accidental_libs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/workshops/ex15_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/workshops/ex16_void/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/workshops/target" />
     </content>

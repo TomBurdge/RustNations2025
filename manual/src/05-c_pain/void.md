@@ -43,4 +43,13 @@ extern "C" {
 }
 ```
 
-Oh wow... Rust actually has `void` type, too.
+Oh wow... Rust actually has `void` type, too. And JUST like C, you can cast it into other things:
+
+```rust
+#[test]
+fn test_extract_from_the_void() {
+    let my_struct = MyStruct { integer: 12, byte: 3 };
+    let n = unsafe { extract_from_the_void(&my_struct as *const MyStruct as *mut c_void) };
+    assert_eq!(n, 12);
+}
+```
