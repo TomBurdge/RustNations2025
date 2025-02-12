@@ -33,24 +33,15 @@ There's a bit to mention here, too:
 * We have a `Safety` comment! If you are using unsafe code, Clippy really wants you to have one of these.
 * We're wrapping `say_hello` in `unsafe`.
 
-Pop Quiz: Why is `say_hello` wrapped in `unsafe`?
+---
+
+# Pop Quiz: Why is `say_hello` wrapped in `unsafe`?
 
 1. C is inherently unsafe.
 2. Unsafe improves performance.
 3. Unsafe is required for FFI.
 
-(scroll)
-```
-.
-.
-.
-.
-.
-.
-.
-.
-```
-(stop scrolling)
+![](../images/ScrollTime.png)
 
 The answer is 3, although I really want it to be 1.
 

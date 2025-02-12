@@ -5,11 +5,9 @@
   - [Who is Herbert Wolverson?](./intro/who-is-herbert-wolverson.md)
   - [Herbert's Books](./intro/herberts-books.md)
   - [Who are Ardan Labs?](./intro/who-are-ardan-labs.md)
-  - [Access to the Code](./intro/access-to-the-code.md)
   - [Language Wars!](./intro/language-wars.md)
 - [Getting Started with FFI](./01-ffi-intro/intro.md)
   - [What is FFI Anyway?](./01-ffi-intro/what-is-ffi.md)
-  - [Why Use FFI?](./01-ffi-intro/why-use-ffi.md)
   - [A Gentle Start](./01-ffi-intro/a-gentle-start.md)
     - [Hello C](./01-ffi-intro/hello-c.md)
     - [Hello Rust](./01-ffi-intro/hello-rust.md)
@@ -53,6 +51,7 @@
   - [Interop Would be Nice](./07-cpp/interop_imagine.md)
   - [CXX.RS](./07-cpp/cxx_rs.md)
   - [CXX.RS The Other Way Around](./07-cpp/cxx_rs2.md)
+- [TODO: Python and PyO3](./pyo3.md)
 - [Wrap Up](./wrap.md)
 
     
