@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p tmp
 CARGO_TARGET_DIR="tmp" cargo build
 cp tmp/debug/libex03_rust_from_c.so .
 CARGO_TARGET_DIR="tmp" cargo clean

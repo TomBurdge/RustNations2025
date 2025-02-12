@@ -10,6 +10,8 @@ pub use rs::*;
 
 #[cfg(test)]
 mod tests {
+    use std::os::raw::c_char;
+
     use super::c_lib::*;
 
     #[test]

@@ -12,7 +12,7 @@ pub use rs::*;
 
 #[cfg(test)]
 mod tests {
-    use std::{ffi::CStr, os::raw::c_void};
+    use std::{ffi::CStr, os::raw::{c_char, c_void}};
     use super::c_lib::*;
 
     #[test]
@@ -25,7 +25,7 @@ mod tests {
 
     #[test]
     fn range_test_double() {
-        for n in i8::MIN .. i8::MAX {
+        for n in c_char::MIN .. c_char::MAX {
             let c_result = unsafe { double_byte(n) };
             let rust_result = super::rs::double_byte(n);
             assert_eq!(c_result, rust_result);

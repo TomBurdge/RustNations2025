@@ -44,7 +44,7 @@ Let's write a much more comprehensive test, since we're dealing with such a smal
 ```rust
 #[test]
 fn range_test_double() {
-    for n in i8::MIN .. i8::MAX {
+    for n in c_char::MIN .. c_char::MAX {
         let c_result = unsafe { double_byte(n) };
         let rust_result = super::rs::double_byte(n);
         assert_eq!(c_result, rust_result);
@@ -53,6 +53,8 @@ fn range_test_double() {
 ```
 
 Run the test, and it panics. And it panics in the *Rust* side. How could doubling a byte possibly be unsafe? *Overflow*.
+
+> There's another gotcha here! On an M1 Mini in Docker, `char` is *unsigned*. This is a great example of the perils of FFI! Let's fire up the Docker version and see what happens...
 
 ## Overflow
 

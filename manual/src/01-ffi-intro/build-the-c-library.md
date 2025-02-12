@@ -67,8 +67,10 @@ You can run the Dockerfile with:
 
 ```bash
 cd workshops/
-docker build -t ex01 -f Dockerfile.ex01 .
-docker run -it ex01
+docker build -t ffi . # You can also type "make"
+docker run -it ffi
+
+# You're now in a bash prompt. vim is available. You can run the examples in there.
 ```
 
 > To help our wonderful TA's remain sane, I've included a Dockerfile for each exercise.
