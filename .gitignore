@@ -16,3 +16,9 @@
 /workshops/ex20_rust_concurency/c/ex20_native_threads
 /workshops/ex21_async/c/libex21*
 /workshops/ex21_async/c/ex21
+.DS_Store
+manual/.DS_Store
+manual/src/.DS_Store
+workshops/.idea
+workshops/ex03_rust_from_c/c/build_docker.sh
+workshops/ex04_rust_headers/show_header.sh

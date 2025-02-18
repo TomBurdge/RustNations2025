@@ -8,9 +8,16 @@ The C type `int`. Raise your hand if you beleve it means:
 
 A signed integer.
 
+![](../images/ScrollTime.png)
+
 A signed 32-bit integer.
 
+
+![](../images/ScrollTime.png)
+
 A type that is at least 16-bits wide, but the actual width is implementation defined. It is guaranteed to be at least as large as a `short int`, is not guaranteed to be smalller than a `long` and is frequently, but not always, the native bit-size of your target platform.
+
+> This a a trick question, because the C standard has been adding requirements to integers. When C first came along, it didn't *have* to be signed - because not every platform supported it. The most recent C++ standard even requires two's complement encoding.
 
 ## C Types
 
